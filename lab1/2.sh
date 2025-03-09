@@ -5,7 +5,7 @@ read current
 
 result=""
 
-while [[ $current != "q" ]]
+while [[ "$current" != "q" ]]
 do
     result+="$current"
     read current
