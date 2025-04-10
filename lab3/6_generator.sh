@@ -9,5 +9,6 @@ while true; do
 		kill -USR2 $(cat .pid)
 	elif [[ $line == "TERM" ]]; then
 		kill -SIGTERM $(cat .pid)
+		exit
 	fi
 done
