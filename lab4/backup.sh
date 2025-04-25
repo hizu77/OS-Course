@@ -11,10 +11,10 @@ fi
 
 curDate=$(date +"%Y-%m-%d")
 minDate=$(date -d "$curDate -7 days" +%Y-%m-%d)
-existingBackup=""
+existingbaclup=""
 
 for i in "/home/user"/Backup-*; do
-	date=${backup##*-}
+	date=$(basename "$i" | cut -d'-' -f2-)
 
 	if [[ $date > $minDate || $date == $minDate ]]; then
 		existingBackup="$i"
@@ -25,7 +25,8 @@ done
 if [[ -z "$existingBackup" ]]; then
 	echo "There are not existing backup"
 	backupDir="/home/user/Backup-$curDate"
-	cp -r "$sourceDir" "$backupDir"
+	mkdir -p "$backupDir"
+	cp -r "$sourceDir"/* "$backupDir"/
 
 	{
 		echo "$backupDir was created at $curDate"
@@ -39,17 +40,18 @@ else
 	backupDir="$existingBackup"
 	echo "$backupDir was updated at $curDate" >> "$backupReport"
 
-	for file in "$sourceDir"; do
-		targetFile="$backupDir/$file"
-		sourceFile="$sourceDir/$file"
+	for file in "$sourceDir"/*; do
+		fileName=$(basename $file)
+		targetFile="$backupDir/$fileName"
+		sourceFile="$sourceDir/$fileName"
 
 		if [[ ! -f "$targetFile" ]]; then
 			cp "$sourceFile" "$tartgetFile"
 			addedFiles+=("$fileName")
-		elif [[ $(wc -c "$sourceFile") -ne $(wc -c "$targetFile") ]]; then
+		elif [[ $(stat -c%s "$sourceFile") -ne $(stat -c%s "$targetFile") ]]; then
 			mv "$targetFile" "$targetFile.$curDate"
 			cp "$sourceFile" "$targetFile"
-			updatedFiles+=("$file - $file.$curDate")
+			updatedFiles+=("$fileName - $fileName.$curDate")
 		fi
 	done
 
