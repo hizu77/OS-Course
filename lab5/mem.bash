@@ -1,6 +1,6 @@
 #!/bin/bash
 
-> report_mem_bash.log
+> report.log
 
 array=()
 counter=0
@@ -10,6 +10,6 @@ while true; do
 	array+=(1 2 3 4 5 6 7 8 9 10)
 	
 	if  ((counter % 100000 == 0)); then
-		echo "Counter = $counter. Size = ${#array[@]}" >> report_mem_bash.log
+		echo "Counter = $counter. Size = ${#array[@]}" >> report.log
 	fi
 done

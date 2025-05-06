@@ -8,7 +8,8 @@ report_file="report_mem_bash.log"
 mem_pid=$!
 
 log() {
-	echo "-------------Date ${date}------------------" >> "$report_file"
+	echo "===========================================" >> "$report_file"
+	echo "-------------Date $(date)------------------" >> "$report_file"
 	echo "-------------Mem info------------------" >> "$report_file"
 	mem_info="$(top -b -n 1 | head -n 4 | tail -n 2)"
 	echo "$mem_info" >> "$report_file"
@@ -23,16 +24,16 @@ log() {
 	echo
 }
 
-while kill -0 "$mem_pid" 2>dev/null; do
+while kill -0 "$mem_pid" 2>/dev/null; do
 	log
-	sleep
+	sleep 1s
 done
 
-echo "--------------DMESG-----------------"
+echo "--------------DMESG-----------------" >> "$report_file"
 dmesg | grep "mem.bash" | tail -n 2 >> "$report_file"
 echo
 
-echo "-------------REPORT LOG-------------"
+echo "-------------REPORT LOG-------------" >> "$report_file"
 tail -n 1 report.log >> "$report_file"
 	
 
