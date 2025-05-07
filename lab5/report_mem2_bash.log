@@ -1,234 +1,204 @@
 ===========================================
--------------Date Wed May  7 02:46:14 MSK 2025------------------
+-------------Date Wed May  7 03:12:07 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 50.0 us, 25.0 sy,  0.0 ni,  0.0 id,  0.0 wa, 25.0 hi,  0.0 si,  0.0 st
-MiB Mem :   1817.2 total,   1624.0 free,    128.4 used,     64.8 buff/cache
+MiB Mem :   1817.2 total,   1610.7 free,    140.7 used,     65.8 buff/cache
+MiB Swap:    820.0 total,    734.6 free,     85.4 used.   1569.6 avail Mem 
 -------------Proc info------------------
-   3250 root      20   0  251292  31768   2972 R  50.0   1.7   0:00.19 mem2.bash
-   3249 root      20   0  250236  30748   3016 R  37.5   1.7   0:00.18 mem.bash
+   3907 root      20   0  258024  38576   2920 R  47.1   2.1   0:00.23 mem.bash
+   3908 root      20   0  256836  37252   2912 R  47.1   2.0   0:00.23 mem2.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3250 root      20   0  268584  49192   2972 R  44.4   2.6   0:00.30 mem2.bash
-   3249 root      20   0  266736  47380   3016 R  38.9   2.5   0:00.29 mem.bash
-      1 root      20   0  175048   1112      0 S   0.0   0.1   0:01.09 systemd
+   3907 root      20   0  273072  53624   2920 R  47.1   2.9   0:00.32 mem.bash
+   3908 root      20   0  270960  51508   2912 R  47.1   2.8   0:00.32 mem2.bash
+      1 root      20   0  175048   2304      4 S   0.0   0.1   0:01.16 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
 ===========================================
--------------Date Wed May  7 02:46:16 MSK 2025------------------
+-------------Date Wed May  7 03:12:09 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 33.3 us, 33.3 sy,  0.0 ni,  0.0 id,  0.0 wa, 33.3 hi,  0.0 si,  0.0 st
-MiB Mem :   1817.2 total,   1387.1 free,    365.3 used,     64.8 buff/cache
+MiB Mem :   1817.2 total,   1365.3 free,    386.0 used,     65.9 buff/cache
+MiB Swap:    820.0 total,    734.6 free,     85.4 used.   1324.3 avail Mem 
 -------------Proc info------------------
-   3249 root      20   0  374052 154564   3016 R  47.1   8.3   0:01.01 mem.bash
-   3250 root      20   0  374052 154528   2972 R  47.1   8.3   0:01.00 mem2.bash
+   3908 root      20   0  383952 164500   2912 R  44.4   8.8   0:01.05 mem2.bash
+   3907 root      20   0  381444 162128   2920 R  38.9   8.7   0:01.03 mem.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3249 root      20   0  388308 168820   3016 R  41.2   9.1   0:01.09 mem.bash
-   3250 root      20   0  391872 172480   2972 R  41.2   9.3   0:01.11 mem2.bash
-      1 root      20   0  175048   1112      0 S   0.0   0.1   0:01.09 systemd
+   3907 root      20   0  397944 178496   2920 R  43.8   9.6   0:01.14 mem.bash
+   3908 root      20   0  398208 178756   2912 R  43.8   9.6   0:01.14 mem2.bash
+      1 root      20   0  175048   2304      4 S   0.0   0.1   0:01.16 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
 ===========================================
--------------Date Wed May  7 02:46:18 MSK 2025------------------
+-------------Date Wed May  7 03:12:11 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 50.0 us, 25.0 sy,  0.0 ni,  0.0 id,  0.0 wa, 25.0 hi,  0.0 si,  0.0 st
-MiB Mem :   1817.2 total,   1151.0 free,    601.3 used,     64.8 buff/cache
+MiB Mem :   1817.2 total,   1124.6 free,    626.7 used,     65.9 buff/cache
+MiB Swap:    820.0 total,    734.6 free,     85.4 used.   1083.6 avail Mem 
 -------------Proc info------------------
-   3249 root      20   0  494436 274948   3016 R  50.0  14.8   0:01.80 mem.bash
-   3250 root      20   0  493380 273856   2972 R  37.5  14.7   0:01.78 mem2.bash
+   3908 root      20   0  506844 287260   2912 R  50.0  15.4   0:01.84 mem2.bash
+   3907 root      20   0  503280 283832   2920 R  37.5  15.3   0:01.83 mem.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3249 root      20   0  507900 288676   3016 R  53.3  15.5   0:01.90 mem.bash
-   3250 root      20   0  509088 289696   2972 R  46.7  15.6   0:01.89 mem2.bash
-      1 root      20   0  175048   1112      0 S   0.0   0.1   0:01.09 systemd
+   3908 root      20   0  521892 302308   2912 R  56.2  16.2   0:01.95 mem2.bash
+   3907 root      20   0  518988 299672   2920 R  37.5  16.1   0:01.93 mem.bash
+      1 root      20   0  175048   2304      4 S   0.0   0.1   0:01.16 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
 ===========================================
--------------Date Wed May  7 02:46:20 MSK 2025------------------
+-------------Date Wed May  7 03:12:13 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 33.3 us, 33.3 sy,  0.0 ni,  0.0 id,  0.0 wa, 33.3 hi,  0.0 si,  0.0 st
-MiB Mem :   1817.2 total,    920.0 free,    832.3 used,     64.8 buff/cache
+MiB Mem :   1817.2 total,    890.0 free,    861.4 used,     65.9 buff/cache
+MiB Swap:    820.0 total,    734.6 free,     85.4 used.    849.0 avail Mem 
 -------------Proc info------------------
-   3250 root      20   0  610992 391600   2972 R  47.1  21.0   0:02.60 mem2.bash
-   3249 root      20   0  608880 389524   3016 R  41.2  20.9   0:02.58 mem.bash
+   3907 root      20   0  623664 404216   2920 R  50.0  21.7   0:02.62 mem.bash
+   3908 root      20   0  624192 404740   2912 R  50.0  21.8   0:02.61 mem2.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3249 root      20   0  626040 406684   3016 R  52.9  21.9   0:02.70 mem.bash
-   3250 root      20   0  624720 405328   2972 R  47.1  21.8   0:02.69 mem2.bash
-      1 root      20   0  175048   1112      0 S   0.0   0.1   0:01.09 systemd
+   3907 root      20   0  637788 418208   2920 R  41.2  22.5   0:02.71 mem.bash
+   3908 root      20   0  642408 422956   2912 R  41.2  22.7   0:02.72 mem2.bash
+      1 root      20   0  175048   2304      4 S   0.0   0.1   0:01.16 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
 ===========================================
--------------Date Wed May  7 02:46:21 MSK 2025------------------
+-------------Date Wed May  7 03:12:14 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 50.0 us, 25.0 sy,  0.0 ni,  0.0 id,  0.0 wa, 25.0 hi,  0.0 si,  0.0 st
-MiB Mem :   1817.2 total,    701.2 free,   1051.2 used,     64.9 buff/cache
+MiB Mem :   1817.2 total,    651.3 free,   1100.0 used,     65.9 buff/cache
+MiB Swap:    820.0 total,    734.6 free,     85.4 used.    610.3 avail Mem 
 -------------Proc info------------------
-   3249 root      20   0  724116 504628   3016 R  50.0  27.1   0:03.38 mem.bash
-   3250 root      20   0  721080 501688   2972 R  50.0  27.0   0:03.37 mem2.bash
+   3907 root      20   0  743520 524072   2920 R  47.1  28.2   0:03.41 mem.bash
+   3908 root      20   0  748932 529348   2912 R  47.1  28.4   0:03.42 mem2.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3249 root      20   0  737844 518356   3016 R  50.0  27.9   0:03.47 mem.bash
-   3250 root      20   0  735996 516472   2972 R  43.8  27.8   0:03.47 mem2.bash
-      1 root      20   0  175048   1112      0 S   0.0   0.1   0:01.09 systemd
+   3908 root      20   0  765036 545452   2912 R  47.1  29.3   0:03.51 mem2.bash
+   3907 root      20   0  759096 539648   2920 R  41.2  29.0   0:03.51 mem.bash
+      1 root      20   0  175048   2304      4 S   0.0   0.1   0:01.16 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
 ===========================================
--------------Date Wed May  7 02:46:23 MSK 2025------------------
+-------------Date Wed May  7 03:12:16 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 33.3 us, 33.3 sy,  0.0 ni,  0.0 id,  0.0 wa, 33.3 hi,  0.0 si,  0.0 st
-MiB Mem :   1817.2 total,    473.8 free,   1278.5 used,     64.9 buff/cache
+MiB Mem :   1817.2 total,    417.0 free,   1334.3 used,     65.9 buff/cache
+MiB Swap:    820.0 total,    734.6 free,     85.4 used.    376.0 avail Mem 
 -------------Proc info------------------
-   3250 root      20   0  840012 620488   2972 R  41.2  33.3   0:04.15 mem2.bash
-   3249 root      20   0  840012 620524   3016 R  35.3  33.3   0:04.14 mem.bash
+   3907 root      20   0  862584 643136   2920 R  50.0  34.6   0:04.19 mem.bash
+   3908 root      20   0  867600 648148   2912 R  37.5  34.8   0:04.18 mem2.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3250 root      20   0  854664 635272   2972 R  42.1  34.1   0:04.25 mem2.bash
-   3249 root      20   0  855852 636364   3016 R  36.8  34.2   0:04.25 mem.bash
-      1 root      20   0  175048   1112      0 S   0.0   0.1   0:01.09 systemd
+   3907 root      20   0  876708 657392   2920 R  50.0  35.3   0:04.28 mem.bash
+   3908 root      20   0  882384 662932   2912 R  50.0  35.6   0:04.28 mem2.bash
+      1 root      20   0  175048   2304      4 S   0.0   0.1   0:01.16 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
 ===========================================
--------------Date Wed May  7 02:46:25 MSK 2025------------------
+-------------Date Wed May  7 03:12:18 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 50.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa, 50.0 hi,  0.0 si,  0.0 st
-MiB Mem :   1817.2 total,    236.5 free,   1515.9 used,     64.9 buff/cache
+MiB Mem :   1817.2 total,    186.7 free,   1564.6 used,     65.9 buff/cache
+MiB Swap:    820.0 total,    734.6 free,     85.4 used.    145.7 avail Mem 
 -------------Proc info------------------
-   3249 root      20   0  961716 742228   3016 R  47.1  39.9   0:04.95 mem.bash
-   3250 root      20   0  959340 739816   2972 R  41.2  39.8   0:04.94 mem2.bash
+   3907 root      20   0  981252 761672   2920 R  50.0  40.9   0:04.97 mem.bash
+   3908 root      20   0  987192 767740   2912 R  43.8  41.3   0:04.96 mem2.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3249 root      20   0  975840 756484   3016 R  44.4  40.7   0:05.04 mem.bash
-   3250 root      20   0  975708 756184   2972 R  38.9  40.6   0:05.04 mem2.bash
-      1 root      20   0  175048   1112      0 S   0.0   0.1   0:01.09 systemd
+   3907 root      20   0  997356 778040   2920 R  46.7  41.8   0:05.07 mem.bash
+   3908 root      20   0 1001844 782260   2912 R  46.7  42.0   0:05.06 mem2.bash
+      1 root      20   0  175048   2304      4 S   0.0   0.1   0:01.16 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
 ===========================================
--------------Date Wed May  7 02:46:27 MSK 2025------------------
+-------------Date Wed May  7 03:12:20 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 18.8 us, 43.8 sy,  0.0 ni,  0.0 id,  0.0 wa, 31.2 hi,  6.2 si,  0.0 st
-MiB Mem :   1817.2 total,     74.2 free,   1692.4 used,     50.5 buff/cache
+MiB Mem :   1817.2 total,     58.8 free,   1707.5 used,     50.9 buff/cache
+MiB Swap:    820.0 total,    359.3 free,    460.7 used.     10.4 avail Mem 
 -------------Proc info------------------
-   3250 root      20   0 1201956 817204   1380 R  41.2  43.9   0:06.53 mem2.bash
-   3249 root      20   0 1201428 817408   1376 R  35.3  43.9   0:06.52 mem.bash
+   3907 root      20   0 1245384 813676    996 R  35.3  43.7   0:06.69 mem.bash
+   3908 root      20   0 1250796 816820   1040 R  35.3  43.9   0:06.68 mem2.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3249 root      20   0 1217664 819332   1376 R  47.1  44.0   0:06.63 mem.bash
-   3250 root      20   0 1214232 814020   1380 R  41.2  43.7   0:06.62 mem2.bash
-     55 root      20   0       0      0      0 S   5.9   0.0   0:12.77 kswapd0
-      1 root      20   0  175048    736      0 S   0.0   0.0   0:01.09 systemd
+   3907 root      20   0 1259904 807292    996 R  38.9  43.4   0:06.79 mem.bash
+   3908 root      20   0 1265184 810128   1040 R  27.8  43.5   0:06.77 mem2.bash
+     55 root      20   0       0      0      0 S  11.1   0.0   0:14.75 kswapd0
+      1 root      20   0  175048   1308      4 S   0.0   0.1   0:01.16 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
 ===========================================
--------------Date Wed May  7 02:46:31 MSK 2025------------------
+-------------Date Wed May  7 03:12:24 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 20.0 us, 40.0 sy,  0.0 ni,  0.0 id,  0.0 wa, 40.0 hi,  0.0 si,  0.0 st
-MiB Mem :   1817.2 total,     68.3 free,   1704.1 used,     44.8 buff/cache
--------------Proc info------------------
-   3249 root      20   0 1329732 819476   1376 R  47.1  44.0   0:07.38 mem.bash
-   3250 root      20   0 1327488 815156   1380 R  29.4  43.8   0:07.36 mem2.bash
--------------Top 5 proc info------------------
-    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3249 root      20   0 1345440 821124   1376 R  33.3  44.1   0:07.48 mem.bash
-   3250 root      20   0 1341480 814584   1380 R  33.3  43.8   0:07.46 mem2.bash
-     55 root      20   0       0      0      0 S   9.5   0.0   0:12.99 kswapd0
-      1 root      20   0  175048    736      0 S   0.0   0.0   0:01.09 systemd
-      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
-===========================================
--------------Date Wed May  7 02:46:33 MSK 2025------------------
--------------Mem info------------------
-%Cpu(s):  7.7 us, 48.7 sy,  0.0 ni,  0.0 id,  2.6 wa, 35.9 hi,  5.1 si,  0.0 st
-MiB Mem :   1817.2 total,     50.9 free,   1731.7 used,     34.6 buff/cache
+MiB Mem :   1817.2 total,     65.4 free,   1720.3 used,     31.5 buff/cache
+MiB Swap:    820.0 total,      0.0 free,    820.0 used.      7.3 avail Mem 
 -------------Proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3250 root      20   0 1670028   1.0g   1732 R  90.3  57.9   0:09.70 mem2.bash
+   3907 root      20   0 1691016   1.0g   1732 R  90.9  59.0   0:09.64 mem.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3250 root      20   0 1696956   1.1g   1732 R  93.3  59.3   0:09.88 mem2.bash
-      1 root      20   0  175048    736      0 S   0.0   0.0   0:01.09 systemd
+   3907 root      20   0 1718076   1.1g   1732 R  87.5  60.4   0:09.82 mem.bash
+      1 root      20   0  175048   3568   2356 S   0.0   0.2   0:01.17 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp
 ===========================================
--------------Date Wed May  7 02:46:37 MSK 2025------------------
+-------------Date Wed May  7 03:12:29 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 66.7 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa, 33.3 hi,  0.0 si,  0.0 st
-MiB Mem :   1817.2 total,    399.1 free,   1363.7 used,     54.5 buff/cache
+MiB Mem :   1817.2 total,    376.7 free,   1381.0 used,     59.5 buff/cache
+MiB Swap:    820.0 total,    365.6 free,    454.4 used.    332.5 avail Mem 
 -------------Proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3250 root      20   0 1907628   1.3g   1732 R  87.5  70.6   0:11.30 mem2.bash
+   3907 root      20   0 1923864   1.3g   1732 R  93.8  71.5   0:11.19 mem.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3250 root      20   0 1935744   1.3g   1732 R  94.1  72.1   0:11.49 mem2.bash
-      1 root      20   0  175048    736      0 S   0.0   0.0   0:01.09 systemd
+   3907 root      20   0 1951056   1.3g   1732 R  93.8  73.0   0:11.37 mem.bash
+      1 root      20   0  175048   3568   2356 S   0.0   0.2   0:01.17 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp
 ===========================================
--------------Date Wed May  7 02:46:38 MSK 2025------------------
+-------------Date Wed May  7 03:12:31 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 40.0 us, 20.0 sy,  0.0 ni,  0.0 id,  0.0 wa, 20.0 hi, 20.0 si,  0.0 st
-MiB Mem :   1817.2 total,    187.6 free,   1574.2 used,     55.3 buff/cache
+MiB Mem :   1817.2 total,    161.1 free,   1596.5 used,     59.6 buff/cache
+MiB Swap:    820.0 total,    365.6 free,    454.4 used.    117.0 avail Mem 
 -------------Proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3250 root      20   0 2124900   1.5g   1732 R  99.9  82.3   0:12.77 mem2.bash
+   3907 root      20   0 2148396   1.5g   1732 R  88.2  83.6   0:12.68 mem.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3250 root      20   0 2150772   1.5g   1732 R  87.5  83.7   0:12.94 mem2.bash
-      1 root      20   0  175048    736      0 S   0.0   0.0   0:01.09 systemd
+   3907 root      20   0 2172816   1.5g   1732 R  93.8  84.9   0:12.84 mem.bash
+      1 root      20   0  175048   3568   2356 S   0.0   0.2   0:01.17 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp
 ===========================================
--------------Date Wed May  7 02:46:40 MSK 2025------------------
+-------------Date Wed May  7 03:12:32 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 28.6 us, 28.6 sy,  0.0 ni,  0.0 id,  0.0 wa, 28.6 hi, 14.3 si,  0.0 st
-MiB Mem :   1817.2 total,     64.5 free,   1698.0 used,     54.7 buff/cache
+MiB Mem :   1817.2 total,     73.8 free,   1685.3 used,     58.1 buff/cache
+MiB Swap:    820.0 total,    246.2 free,    573.8 used.     29.0 avail Mem 
 -------------Proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3250 root      20   0 2323824   1.6g   1732 R  81.2  87.4   0:14.12 mem2.bash
+   3907 root      20   0 2347320   1.5g   1732 R  56.2  86.8   0:13.99 mem.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-     55 root      20   0       0      0      0 R  16.7   0.0   0:13.26 kswapd0
-   3250 root      20   0 2329764   1.5g   1732 R  16.7  86.8   0:14.17 mem2.bash
-      1 root      20   0  175048    728      0 S   0.0   0.0   0:01.09 systemd
+   3907 root      20   0 2371608   1.5g   1732 R  75.0  86.8   0:14.15 mem.bash
+     11 root      20   0       0      0      0 I   6.2   0.0   0:00.09 rcu_sched
+     55 root      20   0       0      0      0 S   6.2   0.0   0:15.15 kswapd0
+      1 root      20   0  175048   3520   2356 S   0.0   0.2   0:01.17 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
-      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
 ===========================================
--------------Date Wed May  7 02:46:42 MSK 2025------------------
+-------------Date Wed May  7 03:12:34 MSK 2025------------------
 -------------Mem info------------------
-%Cpu(s): 16.7 us, 33.3 sy,  0.0 ni,  0.0 id,  0.0 wa, 33.3 hi, 16.7 si,  0.0 st
-MiB Mem :   1817.2 total,     58.5 free,   1708.2 used,     50.4 buff/cache
+MiB Mem :   1817.2 total,     79.0 free,   1688.4 used,     49.8 buff/cache
+MiB Swap:    820.0 total,     26.0 free,    794.0 used.     30.0 avail Mem 
 -------------Proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3250 root      20   0 2518524   1.5g   1732 R  76.5  86.9   0:15.46 mem2.bash
+   3907 root      20   0 2580036   1.5g   1732 R  76.5  86.6   0:15.53 mem.bash
 -------------Top 5 proc info------------------
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3250 root      20   0 2559708   1.5g   1732 R  55.0  87.1   0:15.73 mem2.bash
-     55 root      20   0       0      0      0 S  10.0   0.0   0:13.44 kswapd0
-      1 root      20   0  175048    728      0 S   0.0   0.0   0:01.09 systemd
+   3907 root      20   0 2622144   1.6g   1348 R  82.1  88.9   0:15.82 mem.bash
+     55 root      20   0       0      0      0 R   7.1   0.0   0:15.34 kswapd0
+      1 root      20   0  175048   1104      0 S   0.0   0.1   0:01.17 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
-===========================================
--------------Date Wed May  7 02:46:44 MSK 2025------------------
--------------Mem info------------------
-%Cpu(s):  0.0 us,  5.6 sy,  0.0 ni, 83.3 id,  5.6 wa,  5.6 hi,  0.0 si,  0.0 st
-MiB Mem :   1817.2 total,   1671.1 free,     93.8 used,     52.2 buff/cache
--------------Proc info------------------
-
-    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
--------------Top 5 proc info------------------
-    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-      1 root      20   0  175048    728      0 S   0.0   0.0   0:01.09 systemd
-      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
-      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
-      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp
-      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri
 --------------DMESG-----------------
-[11964.781903] [   3250]     0  3250   657780   416392  4902912   185784             0 mem2.bash
-[11964.782317] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-0.slice/session-7.scope,task=mem2.bash,pid=3250,uid=0
-[11964.782635] Out of memory: Killed process 3250 (mem2.bash) total-vm:2631120kB, anon-rss:1665564kB, file-rss:4kB, shmem-rss:0kB, UID:0 pgtables:4788kB oom_score_adj:0
-[11964.850274] oom_reaper: reaped process 3250 (mem2.bash), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[13517.019886] [   3907]     0  3907   656922   414648  4886528   186720             0 mem.bash
+[13517.020162] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-0.slice/session-11.scope,task=mem.bash,pid=3907,uid=0
+[13517.021705] Out of memory: Killed process 3907 (mem.bash) total-vm:2627688kB, anon-rss:1658592kB, file-rss:0kB, shmem-rss:0kB, UID:0 pgtables:4772kB oom_score_adj:0
+[13517.082339] oom_reaper: reaped process 3907 (mem.bash), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
 -------------REPORT LOG-------------
-Counter = 1500000. Size = 15000000
--------------REPORT 2 LOG-------------
 Counter = 3000000. Size = 30000000
+-------------REPORT 2 LOG-------------
+Counter = 1500000. Size = 15000000

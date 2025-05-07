@@ -14,7 +14,7 @@ log() {
 	echo "===========================================" >> "$report_file"
 	echo "-------------Date $(date)------------------" >> "$report_file"
 	echo "-------------Mem info------------------" >> "$report_file"
-	mem_info="$(top -b -n 1 | head -n 4 | tail -n 2)"
+	mem_info="$(top -b -n 1 | head -n 5 | tail -n 2)"
 	echo "$mem_info" >> "$report_file"
 	
 	echo "-------------Proc info------------------" >> "$report_file"
