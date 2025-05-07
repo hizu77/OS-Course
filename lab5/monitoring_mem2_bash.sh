@@ -33,7 +33,7 @@ while kill -0 "$mem1_pid" 2>/dev/null || kill -0 "$mem2_pid" 2>/dev/null; do
 done
 
 echo "--------------DMESG-----------------" >> "$report_file"
-dmesg | grep "mem[2]*.bash" | tail -n 4 >> "$report_file"
+dmesg | grep "mem[2]*.bash" | tail -n 8 >> "$report_file"
 echo
 
 echo "-------------REPORT LOG-------------" >> "$report_file"
