@@ -1,7 +1,6 @@
 #!/bin/bash
 
-count=$(tail -n 1 report_mem_bash.log | awk '{print $6}')
-N=$((count/10))
+N=$1
 echo "N=$N"
 
 K=30
