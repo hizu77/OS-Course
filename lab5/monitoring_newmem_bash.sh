@@ -3,7 +3,7 @@
 N=$1
 echo "N=$N"
 
-K=30
+K=$2
 echo "K=$K"
 
 for ((i=1; i<=K; i++)); do
@@ -11,10 +11,3 @@ for ((i=1; i<=K; i++)); do
 	sleep 1s
 done
 
-wait
-
-if dmesg | grep -q "newmem.bash"; then
-	echo "Error"
-else
-	echo "OK"
-fi	
